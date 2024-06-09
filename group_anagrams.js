@@ -4,7 +4,6 @@ const Table = require('cli-table');
 // Function to group anagrams
 function groupAnagrams(words) {
     const anagramWordGroups = new Map();
-
     words.forEach(word => {
         // Split each word to array of its indivitual characters. 
         // Use sort method to convert the characters alphabatically. 
